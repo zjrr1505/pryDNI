@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bg-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --bg-input: #fff;
+    --main-color: #264186;
+    --text-color: #fff;
+}
+
+.dni-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    fransform: translate(-50%, -50%);
+}
+
+.container .tittle{
+    text-align: center;
+    color: var(--bg-input);
+    font-size: 40px;
+    margin-bottom: 50%;
+    font-family: 'Lobster', cursive;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
